@@ -170,7 +170,7 @@ game.onUpdateInterval(5000, function () {
         `, SpriteKind.emeny3)
     boss.x = scene.screenWidth()
     boss.y = randint(20, scene.screenHeight() - 20)
-    boss.vx = -7
+    boss.vx = -10
     statusbar = statusbars.create(20, 4, StatusBarKind.emenyhealth2)
     statusbar.attachToSprite(boss)
 })
